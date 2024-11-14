@@ -1,1 +1,3 @@
 # stutter-detection
+
+Cadence is a stuttering detection model designed using Wav2Vec 2.0, Wav2Vec2Tokenizer, Agnostic BERT, and techniques like Connectionist Temporal Classification (CTC) and Feedforward Neural Networks (FNN). Developed using the SEP28K and TORGO datasets, the model leverages Wav2Vec for feature extraction and Agnostic BERT for language modeling. Logistic regression is applied as the machine learning algorithm, while the Adam optimization algorithm improves training performance and accuracy. Cadence aims to assist in real-time stuttering detection with a high degree of precision.
